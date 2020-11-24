@@ -1,0 +1,42 @@
+body{height:100%;background:#FFFFFF;}
+
+#container{padding-top:20px;margin: 0px auto;width:905px;border-bottom: 2px solid #000000;}
+#topbar{background: url(../images/top.gif) repeat-x top;width:100%;height:264px;position:relative;}
+#banner{width:905px;height:50px;}
+#xm1{min-height:350px;height:auto !important;height:350px;}
+#xm2{}
+.pageheader{margin-top:2px;}
+#eima{width:905px;height:171px;}
+#search{position:absolute;top:230px;left:0px;}
+#footer{background:#FFFFFF;}
+/*LEVEL1 menu style*/
+#mmenu{padding:0;margin:0;height:43px;list-style-type: none;width:905px;}
+#mmenu li{float:left;position:relative;}
+#mmenu li ul{display:none;position:absolute;width:129px;padding:0;margin:0;list-style-type: none;}
+#mmenu img,#mmenu a,#mmenu li:hover ul,#mmenu li.over ul,li.over ul{display:block;}
+.mmenu{width:129px;background: url(images/mb.gif) 0 0;text-transform:uppercase;text-align:center;height:43px;width:129px;color:#BDC8C0;font: bold 10px/43px Verdana, Geneva, Arial, Helvetica, sans-serif;}
+a.mmenu:link{color:#BDC8C0;text-decoration:none;}
+a.mmenu:visited{color:#EAECEB;text-decoration:none;}
+a.mmenu:hover,a.mmenu#ma{background-position: 0 -43px;color:#FFFFFF;text-decoration:none;}
+
+/*LEVEL2 menu style*/
+.smenu{width:129px;background: url(images/sb.gif) 0 0;text-indent:20px;height:20px;width:129px;color:#000000;font: 10px/20px Verdana, Geneva, Arial, Helvetica, sans-serif;}
+a.smenu:link{color: #000000;text-decoration:none;}
+a.smenu:visited{color: #000000;text-decoration:none;}
+a.smenu:hover,a.smenu#sa{background-position: 0 -20px;color:#363C65;text-decoration:none;}
+
+/*LEVEL3 menu style*/
+.ssmenu{color:#000000;font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;text-decoration:none;}
+a.ssmenu:link{font-size: 11px;color:#000000;}
+a.ssmenu:visited{font-size: 11px;color:#000000;}
+a.ssmenu:hover{font-size: 11px;color:#363C65text-decoration: underline;}
+
+/*LEVEL3 page frames*/
+#smheader{height:30px;}
+#smcont{height:100%;}
+#smbodyr{height:100%;margin: 0px 120px 0px 0px;}
+#smbodyr{height:100%;margin: 0px 120px 0px 0px;}
+#smmenur{width:110px;float:right;}
+#smbodyl{height:100%;margin: 0px 0px 0px 120px;}
+#smmenul{float:left;width:110px;}
+#smbodyl2{height:100%;margin: 5px 0px 0px 120px;}
